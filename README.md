@@ -33,6 +33,15 @@ Add it to a product README:
 </a>
 ```
 
+## Claude skill
+
+`skills/sanlilab-brand/` is an agent skill with these rules, file paths and the badge snippet. Install it
+for every project:
+
+```sh
+ln -s "$PWD/skills/sanlilab-brand" ~/.claude/skills/sanlilab-brand
+```
+
 ## Regenerating PNGs
 
 ```sh
